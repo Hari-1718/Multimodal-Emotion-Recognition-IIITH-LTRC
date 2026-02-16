@@ -21,8 +21,8 @@ I followed a modular pipeline approach as per the assignment requirements:
 
 ****Experimental Results****
 
+<img width="327" height="121" alt="Screenshot 2026-02-16 152150" src="https://github.com/user-attachments/assets/23d77ce8-2c70-484c-834e-3f6893af880d" />
 
-<img width="327" height="121" alt="image" src="https://github.com/user-attachments/assets/cdd883f7-db32-4db8-a014-3747d3c9417a" />
 
 
 ****Key Observations & Analysis****
@@ -31,3 +31,4 @@ I followed a modular pipeline approach as per the assignment requirements:
 **The Text Challenge:** Text accuracy was significantly lower (13.75%) because the "carrier phrase" in the dataset ("Say the word...") is identical for all emotions, providing very little semantic difference for the BERT model to learn.
 
 **Separability:** The t-SNE visualization confirms that the Temporal Modelling block successfully clustered emotions like 'Angry' and 'Sad' into distinct groups based on their audio features.
+
